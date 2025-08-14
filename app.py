@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 popularity_df = pickle.load(open('popularity.pkl', 'rb'))
-pivot_Table = pickle.load(open('pivot_table.pkl', 'rb'))
+pivot_Table = pickle.load(open('pivot_Table.pkl', 'rb'))
 books = pickle.load(open('books.pkl', 'rb'))
 similarity_score = pickle.load(open('similarity_score.pkl', 'rb'))
 
